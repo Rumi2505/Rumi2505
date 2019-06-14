@@ -1,0 +1,159 @@
+
+body {
+  background-color:#F5FFFA;
+  height: 790px;
+}
+
+.Monad {
+  letter-spacing:7px;
+  font-size:18px;
+  font-weight: 100;
+  color:696969;
+  filter: brightness(110%);
+}
+
+h5 {
+  font-family: "Palatino Linotype";
+  font-weight:100;
+  font-size:13px;
+  letter-spacing:7.9px;
+  color: #8FBC8F;
+}
+
+/* Dropdown Button Music*/
+.dropbtn-music {
+  background-color: #F5FFFA;
+  color: #8FBC8F;
+  border: none;
+  font-family:"Palatino Linotype";
+  font-size: 13px;
+  letter-spacing:7.9px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-music {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-music {
+  display: none;
+  position: absolute;
+  background-color: #F5FFFA;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: left;
+  margin: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-music a {
+  color: 696969;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-music a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown-music:hover .dropdown-content-music {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-music:hover .dropbtn-music {
+  background-color: #FFE4E1;
+  color:696969;
+}
+
+
+/* Home Button */
+.dropdown-home {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.dropbtn-home {
+  border: none;
+  font-family:"Palatino Linotype";
+  font-size: 13px;
+  letter-spacing:7.9px;
+  background-color: #F5FFFA;
+  color: #8FBC8F;
+}
+
+.dropdown-home:hover .dropbtn-home {
+  background-color: #FFE4E1;
+  color:696969;
+}
+
+
+/* Thoughts Button */
+.dropdown-thoughts {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.dropbtn-thoughts {
+  background-color: #F5FFFA;
+  color: #8FBC8F;
+  border: none;
+  font-family:"Palatino Linotype";
+  font-size: 13px;
+  letter-spacing:7.9px;
+}
+
+.dropdown-thoughts:hover .dropbtn-thoughts {
+  background-color: #FFE4E1;
+  color:696969;
+}
+
+
+/* Art Button */
+.dropdown-art {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.dropbtn-art {
+  background-color: #F5FFFA;
+  color: #8FBC8F;
+  border: none;
+  font-family:"Palatino Linotype";
+  font-size: 13px;
+  letter-spacing:7.9px;
+}
+
+.dropdown-art:hover .dropbtn-art {
+  background-color: #FFE4E1;
+  color:696969;
+}
+
+
+/* Inspiration Button */
+.dropdown-inspiration {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.dropbtn-inspiration {
+  background-color: #F5FFFA;
+  color: #8FBC8F;
+  border: none;
+  font-family:"Palatino Linotype";
+  font-size: 13px;
+  letter-spacing:7.9px;
+}
+
+.dropdown-inspiration:hover .dropbtn-inspiration {
+  background-color: #FFE4E1;
+  color:696969;
+}
